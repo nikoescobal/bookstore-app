@@ -5,11 +5,11 @@ function Nav() {
   return (
     <div>
       <ul>
-        <Link key="1" to="/">
-          Books
+        <Link style={{ color: 'mintcream', fontSize: '26px' }} key="1" to="/">
+          Books &nbsp;
         </Link>
-        <Link key="2" to="/categories">
-          Categories
+        <Link style={{ color: 'mintcream', fontSize: '26px' }} key="2" to="/categories">
+          Categories &nbsp;
         </Link>
       </ul>
     </div>
