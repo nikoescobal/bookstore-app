@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getBooks, removeBook } from '../redux/books/books';
-import progressBar from '../assets/progress.png';
+import progressBar from '../Assets/progress.png';
 
 function BookItem() {
   const bookStore = useSelector((state) => state.booksReducer);
