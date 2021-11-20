@@ -2,13 +2,15 @@ form {
   margin-top: 20px;
   border-top: 1px solid rgb(214, 214, 214);
   padding: 10px 0 50px 0;
+  border: solid 1px rgba(148, 148, 148, 0.801);
 }
 
 .adding-form {
   height: 2.5rem;
   justify-content: space-around;
   align-items: center;
-  margin: 0 40px;
+  margin: 0 30px;
+  display: flex;
 }
 
 .adding-span {
@@ -17,7 +19,7 @@ form {
   font-weight: 800;
   letter-spacing: -0.18px;
   color: #888;
-  padding: 0 61px;
+  padding: 0 40px;
 }
 
 .book-input {
@@ -26,6 +28,7 @@ form {
   height: 1.75rem;
   border-radius: 4px;
   padding: 1.8px 1%;
+  margin: 0 20px;
   font-weight: 600;
   color: black;
   border: solid 1px rgba(148, 148, 148, 0.801);

@@ -6,9 +6,11 @@
   font-family: "Roboto Slab", serif;
   justify-content: space-between;
   align-items: center;
-  border-top: solid 1px rgb(214, 214, 214);
-  margin-bottom: 5px;
-  padding: 10px 5%;
+  border: solid 1px rgb(214, 214, 214);
+  margin-bottom: 15px;
+  padding: 30px 5%;
+  padding-left: 40px;
+  margin-right: 35px;
 }
 
 .general-info {
