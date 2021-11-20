@@ -1,5 +1,5 @@
 /* eslint-disable no-case-declarations */
-import * as api from '../../api/api';
+import * as api from '../../API/API';
 
 const ADD_BOOK = 'BookStores/books/ADD_BOOK';
 const REMOVE_BOOK = 'BookStores/books/REMOVE_BOOK';
