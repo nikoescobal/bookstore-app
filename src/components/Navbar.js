@@ -10,11 +10,24 @@ function Navbar() {
         <h2 className="website-logo-name">Bookstore CMS</h2>
         <ul>
           <li>
-            <Link className="links" activeClassName="activelinks" key="1" to="/">Books</Link>
+            <Link
+              className="links"
+              activeClassName="activelinks"
+              key="1"
+              to="/"
+            >
+              Books
+            </Link>
           </li>
           <li>
-            <Link className="links" activeClassName="activelinks" key="2" to="/categories">Categories</Link>
-
+            <Link
+              className="links"
+              activeClassName="activelinks"
+              key="2"
+              to="/categories"
+            >
+              Categories
+            </Link>
           </li>
         </ul>
       </div>
