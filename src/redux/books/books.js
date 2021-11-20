@@ -1,4 +1,4 @@
-import * as api from '../../api/api';
+import * as api from '../../API/API';
 import '../../styles/book.css';
 
 const ADD_BOOK = 'BookStores/books/ADD_BOOK';
