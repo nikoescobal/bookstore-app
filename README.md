@@ -1,56 +1,89 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React-Redux Bookstore 
+# BookStore
 
-> In this project, I built a bookstore app with React and Redux.
+> BookStore is project built using React and redux.
 
-## Built with
+# Home Page 
+![](bookstore.png)
+Additional description about the project and its features.
 
+# Built With
+
+### Major languages
 - HTML
-- CRACO
 - CSS
+- JS
+- JSX
+
+### Frameworks/Libraries
 - React
-- JavaScript
-- Tailwind CSS
-- VScode
-- Lots of love :heart:
 
 ## Live Demo
 
-[Click here to see the project]()
-
+[Click here](https://bookstores-tchilo.netlify.app/) 
 
 ## Getting Started
 
-**To get a local copy up and running follow these simple example steps.**
-## Setup
-
-- Clone this repository. 
-- Run ``npm i`` or ``yarn`` to install dependencies required to start the project
-- Make sure to use node v15.11.0 (npm v7.6.0) 
-- Run ``npm start``
-
-## Run Tests
-
+To get a local copy up and running follow these simple example steps.
 ```
-npm run lint
+git clone git@github.com:Tchilo/BookStores
+
+cd BookStores
+
+npm i 
+
+npm start 
 ```
 
-## Author:
+### Prerequisites
+```
+node modules 
+```
+### Setup
 
-👤 **Nikolas Escobal**
+In the project directory, you can run:
 
-[<code><img height="26" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"></code>](https://github.com/nikoescobal)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"></code>](https://twitter.com/nikoescobal)
-[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/nikolas-escobal/)
- <a href="mailto:niko.escobal@gmail.com?subject=Sup Niko?"><img height="26" src="https://cdn.worldvectorlogo.com/logos/official-gmail-icon-2020-.svg"></a>
- 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Install
+
+### Run tests
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### Deployment
+
+
+
+## Author
+
+- GitHub: [Tchilo](https://github.com/Tchilo)
+
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/nikoescobal/bookstore-app/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -58,11 +91,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-## 📝 MIT License
+## 📝 License
 
-This project makes use of the MIT license.
-
-Just clone and then run npm install to make it work.
-
+This project is [MIT](./MIT.md) licensed.
