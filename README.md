@@ -1,24 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# React-Redux Bookstore 
-
-> In this project, I built a bookstore app with React and Redux.
-
-## Built with
-
-- HTML
-- CRACO
-- CSS
-- React
-- JavaScript
-- Tailwind CSS
-- VScode
-- Lots of love :heart:
-
-## Home Page
-
-![](<img width="1437" alt="Screen Shot 2021-11-21 at 2 34 10 AM" src="https://user-images.githubusercontent.com/62937819/142737425-b50692b9-5f9d-4d9a-ae64-643fba965ad4.png">
-)
 # React-Redux Bookstore 
 
 > In this project, I built a bookstore app with React and Redux.
@@ -64,32 +43,6 @@ npm run lint
 [<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/nikolas-escobal/)
  <a href="mailto:niko.escobal@gmail.com?subject=Sup Niko?"><img height="26" src="https://cdn.worldvectorlogo.com/logos/official-gmail-icon-2020-.svg"></a>
  
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/nikoescobal/members-only/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Microverse
-
-## 📝 MIT License
-
-This project makes use of the MIT license.
-
-Just clone and then run npm install to make it work.
-
-)
-
-## Live Demo
-
-[Click here to see the project]()
 
 
 ## Getting Started
