@@ -1,17 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './Nav';
+import Navbar from './Navbar';
 import BookList from './BookList';
 import Categories from './Categories';
 
 function BookStore() {
   return (
     <Router>
-      <Nav />
+      <Navbar />
       <Routes>
         <Route path="/" element={<BookList />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
+
     </Router>
   );
 }
