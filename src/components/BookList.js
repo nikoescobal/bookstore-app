@@ -1,23 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import BookItem from './BookItem';
+import BookAdd from './AddBook';
 
-function Nav() {
+function BookList() {
   return (
-    <div>
+    <>
       <ul>
-        <Link style={{ color: 'mintcream', fontSize: '26px' }} key="1" to="/">
-          Books &nbsp;
-        </Link>
-        <Link
-          style={{ color: 'mintcream', fontSize: '26px' }}
-          key="2"
-          to="/categories"
-        >
-          Categories &nbsp;
-        </Link>
+        <BookItem />
       </ul>
-    </div>
+      <BookAdd />
+    </>
   );
 }
 
-export default Nav;
+export default BookList;
