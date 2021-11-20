@@ -3,7 +3,7 @@
 }
 
 .book-container {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   justify-content: space-between;
   align-items: center;
   border-top: solid 1px rgb(214, 214, 214);
@@ -81,7 +81,7 @@
 
 .completed-word {
   opacity: 0.7;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   color: #121212;
 }

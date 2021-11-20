@@ -6,20 +6,22 @@ form {
 
 .adding-form {
   height: 2.5rem;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin: 0 40px;
 }
 
 .adding-span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 800;
   letter-spacing: -0.18px;
   color: #888;
+  padding: 0 60px;
 }
 
 .book-input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 30%;
   height: 1.75rem;
   border-radius: 4px;
@@ -35,7 +37,7 @@ form {
 }
 
 .selector-input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   height: 2.1rem;
   border-radius: 4px;
   background-color: #fff;
@@ -56,7 +58,7 @@ form {
   border: none;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   letter-spacing: 0.5px;
   text-align: center;
