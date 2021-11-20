@@ -1,32 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { getBooks, removeBook } from '../redux/books/books';
 
 function BookItem() {
   const bookStore = useSelector((state) => state.booksReducer);
   const dispatch = useDispatch();
 
+  useEffect(() => {
+    if (!bookStore.length) {
+      dispatch(getBooks());
+    }
+  }, []);
+
   const handleRemove = (id) => {
     dispatch(removeBook(id));
   };
-  return bookStore.map((book) => (
-    <li key={book.id}>
-      <span>
+
+  return (
+    bookStore.map((book) => (
+      <li key={book.item_id}>
+        <span>
+          {' '}
+          {book.title}
+          {' '}
+        </span>
+        <span>
+          {' '}
+          {book.category}
+          {' '}
+        </span>
+
         {' '}
-        {book.title}
-        {' '}
-      </span>
-      <span>
-        {' '}
-        {book.author}
-        {' '}
-      </span>
-      {' '}
-      <button type="button" onClick={() => handleRemove(book.id)}>
-        Delete
-      </button>
-    </li>
-  ));
+        <button type="button" onClick={() => handleRemove(book.item_id)}>Delete</button>
+      </li>
+    ))
+
+  );
 }
 
 export default BookItem;

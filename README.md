@@ -50,7 +50,7 @@ npm run lint
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/nikoescobal/members-only/issues).
+Feel free to check the [issues page](https://github.com/nikoescobal/bookstore-app/issues).
 
 ## Show your support
 

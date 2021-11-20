@@ -1,6 +1,6 @@
 import React from 'react';
 import BookItem from './BookItem';
-import AddBook from './AddBook';
+import BookAdd from './AddBook';
 
 function BookList() {
   return (
@@ -8,7 +8,7 @@ function BookList() {
       <ul>
         <BookItem />
       </ul>
-      <AddBook />
+      <BookAdd />
     </>
   );
 }
